@@ -1,17 +1,14 @@
 # needs
 
-base builder above ground
-
-dungeons that can be explored
-    dungeons safer at night as all monsters are on the surface
-
-forest to explore and gather resources
-    forest too dark/dangerous at night
-
-growth of colony
-    start with 2 females and 2 males? 
-    cell-like division when certain things happen?
-    more arrive later? from where?
+* base builder above ground
+* dungeons that can be explored
+    * dungeons safer at night as all monsters are on the surface
+* forest to explore and gather resources
+    * forest too dark/dangerous at night
+* growth of colony
+    * start with 2 females and 2 males? 
+    * cell-like division when certain things happen?
+    * more arrive later? from where?
 
 
 --- 
@@ -19,12 +16,11 @@ growth of colony
 
 # wants
 
-factorio-like item & fluid pipes for sending stuff from one location to another
-
-require power generation
-    geothermal
-    water wheel
-    pig treadmills
+*factorio-like item & fluid pipes for sending stuff from one location to another
+* require power generation
+    * geothermal
+    * water wheel
+    * pig treadmills
 
 
 
@@ -126,4 +122,46 @@ require power generation
         * vegan stew
         * carrot soup
         * potato soup
+
+
+
+---
+
+# to organize later
+
+```
+tools
+axe
+pick
+hoe
+scythe head
+iron ore
+copper
+steel
+charcoal
+sword
+iron armor
+steel armor
+copper armor
+bark armor
+
+Workstations
+
+Blacksmith
+Lumberjack
+Farmer
+Explorer
+Artisan - fabrics, creamics
+crafting station
+Bakery
+
+
+
+
+
+```
+
+
+
+
 
