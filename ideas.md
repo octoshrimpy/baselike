@@ -16,7 +16,7 @@
 
 # wants
 
-*factorio-like item & fluid pipes for sending stuff from one location to another
+* factorio-like item & fluid pipes for sending stuff from one location to another
 * require power generation
     * geothermal
     * water wheel
@@ -33,7 +33,7 @@
     * organic
         * animal-based
             * milk
-            * skin
+            * hide
             * wool
             * meats
                 * cow
@@ -60,6 +60,10 @@
                 * carrot
                 * wheat
     * mineral
+        * ores
+            * iron
+            * copper
+            * gold
         * stones
             * regular
             * deep
@@ -84,7 +88,8 @@
             * torch
             * planks  
     * mineral
-        * stones
+        * steel (charcoal and iron)
+        * stone, iron, copper
             * arrow tip
             * spear tip
             * hook
@@ -95,6 +100,7 @@
                 * hoe head
                 * sword hilt
                 * sword blade
+                * scythe blade
 * foods (from currently added things)
     * standalones
         * cream
@@ -122,38 +128,34 @@
         * vegan stew
         * carrot soup
         * potato soup
-
-
-
+* equippables
+    * wooden, stone, copper, iron, steel
+        * tools
+            * axe
+            * pick
+            * hoe
+            * scythe
+        * armor & weapons
+            * helm
+            * chestplate
+            * chausses
+            * sabatons
+            * sword
+            * shield
+* crafting stations
+    * anvil         - blacksmith
+    * sawmill       - lumberjack
+    * seed box      - farmer
+    * trail marker  - explorer
+    * workshop      - artisan
+    * crafter       - crafting station
+    * oven          - baker
 ---
 
 # to organize later
 
 ```
-tools
-axe
-pick
-hoe
-scythe head
-iron ore
-copper
-steel
-charcoal
-sword
-iron armor
-steel armor
-copper armor
-bark armor
 
-Workstations
-
-Blacksmith
-Lumberjack
-Farmer
-Explorer
-Artisan - fabrics, creamics
-crafting station
-Bakery
 
 
 
