@@ -1,0 +1,100 @@
+[animal drops]
+    ∪ milk
+    𐇪 hide
+    ⊛ wool
+    m meat
+     tusk/horn
+     bone
+     honey
+     honeycomb
+
+[plant drops]
+     seed
+     leaf
+     bark
+     branch
+    l log
+     stem
+     flower
+     cap (mushroom)
+     blackberry
+     raspberry
+     blueberry
+    p potato
+    c carrot
+    w wheat
+
+    [mined]
+    i iron
+    c copper
+    g gold
+    s stone
+
+[crafted]
+     wax
+     candle
+     leather
+     cloth
+     twine/rope
+     tool handle
+     torch
+     planks
+     steel
+     arrow/spear tip
+     hook
+     flint & steel
+     axe head
+     pick head
+     hoe head
+     sword hilt
+     sword blade
+     scythe blade
+
+[baked]
+     cream
+     cheese
+     butter
+     cooked meat        
+     baked potato
+     baked carrot
+     steak & potatoes
+     bread
+     toast
+     sandwich
+    ⊑ stew
+    ⊑ bone broth
+    ⊑ minestrone
+    ⊑ vegan stew
+    ⊑ carrot soup
+    ⊑ potato soup
+    ∪ tea
+    ∪ raspberry juice
+    ∪ blackberry juice
+    ∪ blueberry juice
+    ∪ fruit juice
+    ∪ sweet honey
+    ⊔ mead
+    ⊔ beer
+    ⊔ wine        
+
+
+[equipped]
+    a axe
+    p pick
+    h hoe
+    s scythe
+    ౦ hat
+    ౪ shirt
+    ౧ pants
+    ఽ shoes
+    † sword
+    ⛨ shield
+
+[workstations]
+    ⟏ anvil         - blacksmith
+    ⧅ sawmill       - lumberjack
+    ⊡ seed box      - farmer
+    ⟎ trail marker  - explorer
+    ⏍ workshop      - artisan
+    ⊠ crafter       - crafting station
+    ⧇ oven          - baker

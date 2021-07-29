@@ -43,6 +43,8 @@
                 * {some sort of dungeons animal}
             * tusk/horn
             * bone
+            * honey
+            * honeycomb
         * plant-based
             * trees
                 * seed
@@ -55,6 +57,10 @@
                 * stem
                 * flower
                 * cap (mushroom)
+                * berries
+                    * blackberry
+                    * raspberry
+                    * blueberry
             * crops
                 * potato
                 * carrot
@@ -79,9 +85,10 @@
             * twine/rope
             * arrow tip
             * spear tip
-            * hook  
+            * hook 
+            * wax
+            * candle 
         * plant-based
-            * tea
             * cloth
             * twine/rope
             * tool handle
@@ -128,6 +135,18 @@
         * vegan stew
         * carrot soup
         * potato soup
+    * drinks
+        * alcohols
+            * wine
+            * mead
+            * beer
+        * non-alcohols
+            * tea
+            * raspberry juice
+            * blackberry juice
+            * blueberry juice
+            * fruit juice
+            * sweet honey
 * equippables
     * wooden, stone, copper, iron, steel
         * tools
@@ -150,7 +169,9 @@
     * workshop      - artisan
     * crafter       - crafting station
     * oven          - baker
+
 ---
+
 
 # to organize later
 
