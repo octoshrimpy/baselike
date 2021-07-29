@@ -20,14 +20,14 @@
      blackberry
      raspberry
      blueberry
-    p potato
-    c carrot
-    w wheat
+    ⌄ potato
+    ⌄ carrot
+    ʬ wheat
 
     [mined]
-    i iron
-    c copper
-    g gold
+    ɸ iron
+    ɸ copper
+    ɸ gold
     s stone
 
 [crafted]
@@ -98,3 +98,38 @@
     ⏍ workshop      - artisan
     ⊠ crafter       - crafting station
     ⧇ oven          - baker
+
+[alives]
+    @ player
+    θ NPCs
+
+    D deer
+    P pig
+    C cow
+    H chicken
+ 
+    A cave creep
+    
+[map]
+    · ground
+    ≋ water
+    ~ wet ground
+    ⌄ short plant
+    ʬ tall plant
+    ⋄ small animal
+    ◈ large animal
+    ₸ tree
+    ᝄ item(s) on ground
+    ║ wall ╠ ╬ ╣ ╔ ╗ ═ ╩ ╦ ╚ ╝
+    Ξ door
+    │ window ─
+    ░ storage pile ▒ ▓ █
+    ʭ chair
+    ╌ fence ┆ ┌ ┐ └ ┘ 
+
+
+    ⋄ small animal
+    ◈ large animal
+    ∶ small animal
+    ∷ large animal
+    
