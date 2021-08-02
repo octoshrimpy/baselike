@@ -100,7 +100,7 @@
     ⧇ oven          - baker
 
 [alives]
-    @ player
+*   @ player
     θ NPCs
 
     D deer
@@ -111,16 +111,16 @@
     A cave creep
     
 [map]
-    · ground
-    ≋ water
-    ~ wet ground
+*   · ground
+    ≋ deep water
+    ~ shallow water
     ⌄ short plant
     ʬ tall plant
     ⋄ small animal
     ◈ large animal
-    ₸ tree
+*   ₸ tree
     ᝄ item(s) on ground
-    ║ wall ╠ ╬ ╣ ╔ ╗ ═ ╩ ╦ ╚ ╝
+*   ║ wall ╠ ╬ ╣ ╔ ╗ ═ ╩ ╦ ╚ ╝
     Ξ door
     │ window ─
     ░ storage pile ▒ ▓ █
