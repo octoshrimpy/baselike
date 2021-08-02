@@ -1,0 +1,177 @@
+{
+    # animal drops
+    "milk":             "",
+    "hide":             "",
+    "wool":             "",
+    "meat":             "",
+    "tusk":             "",
+    "bone":             "",
+    "honey":            "",
+    "honeycomb":        "",
+
+    # plant drops
+    "seed":             "",
+    "leaf":             "",
+    "bark":             "",
+    "branch":           "",
+    "log":              "",
+    "stem":             "",
+    "flower":           "",
+    "cap":              "",
+    "blackberry":       "",
+    "raspberry":        "",
+    "blueberry":        "",
+    "potato":           "",
+    "carrot":           "",
+    "wheat":            "",
+
+    # mined
+    "stone":            "",
+    "copper":           "",
+    "iron":             "",
+    "gold":             "",
+
+    # smithed
+
+    # sawed
+    
+    # planted
+
+    # crafted
+    "wax":              "",
+    "candle":           "",
+    "leather":          "",
+    "cloth":            "",
+    "twine":            "",
+    "tool handle":      "",
+    "torch":            "",
+    "planks":           "",
+    "steel":            "",
+    "arrow tip":        "",
+    "hook":             "",
+    "flint & steel":    "",
+    "axe head":         "",
+    "pick head":        "",
+    "hoe head":         "",
+    "sword hilt":       "",
+    "sword blade":      "",
+    "scythe blade":     "",
+
+    # baked
+    "cream":            ""
+    "cheese":           ""
+    "butter":           ""
+    "cooked meat":      ""
+    "baked potato":     ""
+    "baked carrot":     ""
+    "steak & potatoes": ""
+    "bread":            ""
+    "toast":            ""
+    "sandwich":         ""
+    "stew":             ""
+    "bone broth":       ""
+    "minestrone":       ""
+    "vegan stew":       ""
+    "carrot soup":      ""
+    "potato soup":      ""
+    "tea":              ""
+    "raspberry juice":  ""
+    "blackberry juice": ""
+    "blueberry juice":  ""
+    "fruit juice":      ""
+    "sweet honey":      ""
+    "mead":             ""
+    "beer":             ""
+    "wine":             ""
+
+    # workstations
+    "anvil":            "⟏",
+    "sawmill":          "⧅",
+    "seeds":            "⊡",
+    "trails":           "⟎",
+    "workshop":         "⏍",
+    "crafter":          "⊠",
+    "oven":             "⧇",
+
+    # equipped    
+    "axe":              "a"
+    "pick":             "p"
+    "hoe":              "h"
+    "scythe":           "s"
+    "hat":              "౦"
+    "shirt":            "౪"
+    "pants":            "౧"
+    "shoes":            "ఽ"
+    "sword":            "†"
+    "shield":           "⛨"
+
+    # alives
+    "player":           "@"
+    "NPCs":             "θ"
+    "deer":             "D"
+    "pig":              "P"
+    "cow":              "C"
+    "chicken":          "H"
+    "cave creep":       "A"
+
+    # map
+    "ground":           "·"
+    "deep water":       "≋"
+    "shallow water":    "~"
+    "short plant":      "⌄"
+    "tall plant":       "ʬ"
+    "small animal":     "⋄"
+    "large animal":     "◈"
+    "tree":             "₸"
+    "ground item":      "ᝄ"
+    "door":             "Ξ"
+    "chair":            "ʭ"
+    "table":            "ⲧ"
+    "campfire":         "𐓙"
+    "wall: {
+        "vertical":     "║"
+        "horizontal":   "═"
+        "bottom left":  "╚"
+        "bottom mid":   "╩"
+        "bottom right": "╝"
+        "top left":     "╔"
+        "top mid":      "╦"
+        "top right":    "╗"
+        "cross":        "╬"
+        "t left":       "╣"
+        "t right":      "╠"
+        
+    }
+    "window": {
+        vertical:       "│"
+        "horizontal":   "─"
+    }
+    "storage pile": {
+        "25":           "░"
+        "50":           "▒"
+        "75":           "▓"
+        "100":          "█"
+    }
+    "fence": {
+        "vertical":     "┆"
+        "horizontal":   "╌"
+        "bottom left":  "└"
+        "bottom mid":   "┴"
+        "bottom right": "┘"
+        "top left":     "┌"
+        "top mid":      "┬"
+        "top right":    "┐"
+        "cross":        "┼"
+        "t left":       "┤"
+        "t right":      "├"
+    }       
+
+    # defaults
+    "animal_drop":      "",
+    "plant_drop":       "",
+    "mined":            "",
+    "crafted":          "",
+    "baked":            "",
+    "equipped":         "",
+    "default_item":     "",
+    "alive":            "",

@@ -24,7 +24,7 @@
     ⌄ carrot
     ʬ wheat
 
-    [mined]
+[mined]
     ɸ iron
     ɸ copper
     ɸ gold
@@ -85,7 +85,7 @@
     s scythe
     ౦ hat
     ౪ shirt
-    ౧ pants
+    ౧𖫑 pants
     ఽ shoes
     † sword
     ⛨ shield
@@ -126,6 +126,8 @@
     ░ storage pile ▒ ▓ █
     ʭ chair
     ╌ fence ┆ ┌ ┐ └ ┘ 
+    ⲧ table
+    𐓙 campfire
 
 
     ⋄ small animal
@@ -133,3 +135,12 @@
     ∶ small animal
     ∷ large animal
     
+
+#extra notes from browsing all languages
+
+https://unicode-table.com/en/alphabets/carian/
+𐕣 sword/dagger
+https://unicode-table.com/en/alphabets/cypriot-syllabary/
+https://unicode-table.com/en/alphabets/elbasan/
+𑌽 item on ground
+https://unicode-table.com/en/alphabets/kayah-li/

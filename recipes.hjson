@@ -1,0 +1,173 @@
+{
+    "workstations":{
+        "anvil":{
+            "name":"Anvil",
+            "desc":"Used in metallurgy",
+            "char":"⟏"
+        },
+        "sawmill":{
+            "name":"Sawmill",
+            "desc":"Used for processing of wood",
+            "char":"⧅"
+        },
+        "seeds":{
+            "name":"Seed Box",
+            "desc":"Stores many kinds of seeds",
+            "char":"⊡"
+        },
+        "trails":{
+            "name":"Trail Marker",
+            "desc":"Stores maps, trails, & knowledge",
+            "char":"⟎"
+        },
+        "workshop":{
+            "name":"Workshop",
+            "desc":"Used for any artisanal crafting",
+            "char":"⏍"
+        },
+        "crafter":{
+            "name":"Crafter",
+            "desc":"General purpose crafting station",
+            "char":"⊠"
+        },
+        "oven":{
+            "name":"Oven",
+            "desc":"Used to make foods and baked goods",
+            "char":"⧇"
+        }
+    },
+    "items":{
+        "drops":{
+            "animal":{
+                "milk":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "hide":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "wool":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "meat":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "horn":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "bone":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "honey":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "honeycomb":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                }
+            },
+            "plant":{
+                "seed":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "leaf":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "bark":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "branch":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "log":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "stem":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "flower":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "cap":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "blackberry":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "raspberry":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "blueberry":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "potato":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "carrot":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                },
+                "wheat":{
+                    "name":"",
+                    "desc":"",
+                    "char":""
+                }
+            }
+        },
+        # anvil
+        "smithed":{},
+        # lumber mill
+        "sawn":{},
+        # seed box
+        "planted":{},
+        # trail marker
+        "found":{},
+        # workstation
+        "created":{},
+        #  crafter
+        "crafted":{},
+        # oven
+        "baked":{}
+    },
+    "alives":{},
+    "map":{}
+}
