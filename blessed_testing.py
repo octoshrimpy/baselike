@@ -33,6 +33,8 @@ def rand_print(term, data):
 
     # get char
     ch = ''
+    outp = term.move_xy(x, y)
+    
     try:
         ch = data[f'{x}{y}']['char']
     except:
@@ -41,17 +43,33 @@ def rand_print(term, data):
     # checks
     if ch == '-':
         chout = f'{term.orange}='
+
     elif ch == '=':
         chout = f'{term.orangered}#'
+
+    elif ch == '#':
+        y += 1
+        outp = term.move_xy(x, y)
+        chout = f'{term.teal}|'
+
+    elif ch == '|':
+        y += 1
+        outp = term.move_xy(x, y)
+        chout = f'{term.blue}║'
+    
     else:
         chout = f'{term.yellow}-' 
 
+
     # save to data structure
-    data[f'{x}{y}']['char'] = escape_ansi(chout)
+    try:
+        data[f'{x}{y}']['char'] = escape_ansi(chout)
+    except:
+        data[f'{x}{y}'] = {"char": escape_ansi(chout)}
 
     # set up output for writing
-    outp = term.move_yx(y, x)
     outp += chout
+
     print(outp, end='')
 
     return data
@@ -71,7 +89,8 @@ def main(term):
 
             # do things
             if not pause:
-                data = rand_print(term, data)
+                # data = rand_print(term, data)
+                data = draw(term, data)
                 sys.stdout.flush()
 
             # inputs
