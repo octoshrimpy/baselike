@@ -1,9 +1,10 @@
+import re
 import sys
 import time
 import random
 import blessed
 
-
+# show message in bottom line
 def show_msg(term, msg = 'paused'):
     txt_paused = msg
     outp = term.move_yx(term.height - 1, int(term.width / 2 - len(txt_paused) / 2))
@@ -20,29 +21,57 @@ def toggle_pause(term, pause):
     
     return pause
 
+# remove stupid ansi codes  from strings
+def escape_ansi(line):
+    ansi_escape = re.compile(r'(?:\x1B[@-_]|[\x80-\x9F])[0-?]*[ -/]*[@-~]')
+    return ansi_escape.sub('', line)
 
-def rand_print(term):
+# do the main thing
+def rand_print(term, data):
     x = random.randint(0, term.width)
     y = random.randint(0, term.height)
 
+    # get char
+    ch = ''
+    try:
+        ch = data[f'{x}{y}']['char']
+    except:
+        data[f'{x}{y}'] = {"char": ''}
+
+    # checks
+    if ch == '-':
+        chout = f'{term.orange}='
+    elif ch == '=':
+        chout = f'{term.orangered}#'
+    else:
+        chout = f'{term.yellow}-' 
+
+    # save to data structure
+    data[f'{x}{y}']['char'] = escape_ansi(chout)
+
+    # set up output for writing
     outp = term.move_yx(y, x)
-    outp += '#'
+    outp += chout
     print(outp, end='')
 
+    return data
 
+# main thing
 def main(term):
+    data = {}
+
+    # setup term
     with term.fullscreen(), term.cbreak(), term.hidden_cursor():
         pause = False
 
+        # game loop
         while True:
             if pause:
                 show_msg(term)
 
+            # do things
             if not pause:
-                
-                # do things
-                rand_print(term)
-                
+                data = rand_print(term, data)
                 sys.stdout.flush()
 
             # inputs
@@ -57,7 +86,6 @@ def main(term):
                 pause = toggle_pause(term, pause)
 
 
-
-# doesn't erase terminal history
+# if ran as main process
 if __name__ == "__main__":
     exit(main(blessed.Terminal()))
