@@ -1,6 +1,7 @@
 import re
 import sys
 import time
+import urwid
 import random
 import blessed
 
@@ -25,6 +26,31 @@ def toggle_pause(term, pause):
 def escape_ansi(line):
     ansi_escape = re.compile(r'(?:\x1B[@-_]|[\x80-\x9F])[0-?]*[ -/]*[@-~]')
     return ansi_escape.sub('', line)
+
+
+def normalize_input(key):
+        if type(key) is tuple:
+            key = list(key)
+            if key[0] == 'mouse press' or key[0] == 'mouse drag':
+                if key[1] == 1.0:
+                    key[1] = "left click"
+                if key[1] == 2.0:
+                    key[1] = "middle click"
+                if key[1] == 3.0:
+                    key[1] = "right click"
+                if key[1] == 4.0:
+                    key[1] = "scroll up"
+                if key[1] == 5.0:
+                    key[1] = "scroll down"
+        
+        return key
+
+
+def handle_input(key):
+    if ("mouse", "left",) in normalize_input(key):
+        show_msg('lmouse')
+        
+
 
 # do the main thing
 def rand_print(term, data):
@@ -74,6 +100,11 @@ def rand_print(term, data):
 
     return data
 
+
+def draw(term, data):
+    pass
+
+
 # main thing
 def main(term):
     data = {}
@@ -89,8 +120,8 @@ def main(term):
 
             # do things
             if not pause:
-                # data = rand_print(term, data)
-                data = draw(term, data)
+                data = rand_print(term, data)
+                # data = draw(term, data)
                 sys.stdout.flush()
 
             # inputs
@@ -107,4 +138,6 @@ def main(term):
 
 # if ran as main process
 if __name__ == "__main__":
-    exit(main(blessed.Terminal()))
+    loop = urwid.MainLoop(exit(main(blessed.Terminal())), unhandled_input=handle_input, screen=urwid.curses_display.Screen()) 
+    loop.run()
+    
